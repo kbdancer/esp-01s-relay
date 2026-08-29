@@ -2,7 +2,7 @@
 
 基于 ESP8266 ESP-01S 的 WiFi 继电器固件。通过网页手动开关，支持 AP 配网、定时任务与恢复出厂设置。
 
-![ESP-01S 继电器模块](relay.webp)
+![ESP-01S 继电器模块](images/relay.webp)
 
 ## 硬件
 
@@ -41,11 +41,11 @@
 
 **控制页**
 
-![控制页](control.png)
+![控制页](images/control.png)
 
 **设置页**
 
-![设置页](settings.png)
+![设置页](images/settings.png)
 
 ## 定时任务说明
 
@@ -93,9 +93,10 @@ arduino-cli upload \
 ```
 esp-01s-relay/
 ├── esp-01s-relay.ino
-├── control.png       # 控制页截图
-├── settings.png      # 设置页截图
-├── relay.webp        # 硬件照片
+├── images/
+│   ├── control.png     # 控制页截图
+│   ├── settings.png    # 设置页截图
+│   └── relay.webp      # 硬件照片
 ├── LICENSE
 └── README.md
 ```
